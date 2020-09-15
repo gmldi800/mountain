@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 1rem 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 1000px;
+  margin-bottom: 3rem;
+}
+
+/* table1 */
+.tbl-01 td,
+.tbl-01 th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.tbl-01 th {
+  background: #efefef;
+}
+
+/* table2 */
+.tbl-02 td,
+.tbl-02 th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.tbl-02 tr:nth-child(even) {
+  background: #efefef;
+}
+
+/* table03 */
+
+.tbl-03 td,
+.tbl-03 th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.tbl-03 th {
+  background: #efefef;
+}
+
+.tbl-03 tr:nth-child(1) th {
+  background: #666;
+  color: #fff;
+}
+/* TABLE 4 */
+
+.tbl-04 {
+  border-top: 1px solid #ccc;
+}
+.tbl-04 td,
+.tbl-04 th {
+  border-bottom: 2px solid #666;
+  padding: 8px;
+}
+
+.tbl-04 th {
+  background: #efefef;
+}
+/* table 05 */
+.tbl-05 td,
+.tbl-05 th {
+  border: 1px solid #ccc;
+  border-left: none;
+  padding: 8px;
+}
+.tbl-05 th {
+  background: #efefef;
+}
+.tbl-05 td:last-child,
+.tbl-05 th {
+  border-right: none;
+}
+
+.tbl-05 th {
+  background-color: #efefef;
+}
+/* table 06 */
+
+.tbl-06 td,
+.tbl-06 th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.tbl-05 th {
+  background-color: #efefef;
+}
+/* table 07 */
+.tbl-07 td,
+.tbl-07 th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.tbl-07 th {
+  background: #efefef;
+}
